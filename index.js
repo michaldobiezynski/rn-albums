@@ -6,8 +6,8 @@ import Header from './src/components/header';
 
 // create a component
 const App = () => {
-  return <Header />;
+  return <Header headerText={'Albums'} />;
 };
 
-// render thjat component
+// render that component
 AppRegistry.registerComponent('rnAlbums', () => App);
